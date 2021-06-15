@@ -1,0 +1,21 @@
+.key{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value{
+    font-size:15px;
+}
+.mrpval{
+    text-decoration: line-through;
+}
+.productImg{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+.productImg>img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
