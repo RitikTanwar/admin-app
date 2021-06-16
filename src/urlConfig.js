@@ -1,5 +1,5 @@
 const baseURL =
-  location.hostname === "localhost"
+  location && location.hostname === "localhost"
     ? "http://localhost:3000"
     : "https://flipkart-admins-apps.herokuapp.com";
 
